@@ -19,7 +19,9 @@ python setup.py install
 dial-clean --raw_dir xxx --out_dir xxx
 ```
 ## 也可以使用pypi安装
+```
 pip install dial-clean
+```
 
 # Auguments
 除去raw_dir与out_dir外，其他均为可选参数
