@@ -86,24 +86,7 @@ pip install dial-clean
 | de_other_brackets | 将【】等括号删除，保留中间内容，针对知乎源 |
 
         
-# 更新计划
-1. 实现word level filter: 2022-10-1之前
-2. 实现默认支持更多的输入输出格式: 2022-9-25之前
-3. 整理整个项目的文档和注释: 2022-9-25之前
 
-
-
-# 下面为待完成功能，doing
-
-| re_name           | 人名用 <NAME1>, <NAME2> ...替换 |
-| no_ad             | 去除可能是广告的对话（同样的回复对应多个context）借鉴[论文](https://www.aclweb.org/anthology/D13-1096.pdf) |
-| de_generic_dialog | 去通用回复 借鉴[论文](https://arxiv.org/abs/1911.00536)|
-| no_short_response | 去掉对话尾部所有过短回复 |
-| de_brackets       | 去除某些特定文件中的 "\[XXX\]" |
-| no_word_blacklist | 过滤分此后的黑名单词的对话 |
-| no_alpha_noise    | 过滤掉含有不成 英文单词的 字母组合 的句子 |
-| check_confuse_word| 保存包含混淆名单词的对话进行recall |
-| yda_dedupl        | 如果一个词语在句子中出现的比例 超过一个阈值则放弃该句子 |
 
 
 
